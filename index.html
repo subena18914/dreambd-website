@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>dreambd</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- fontawsome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	 <!--google fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:500,100,100italic,300,300italic,400,400italic,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+
+	<!-- css -->
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+	
+  </head>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<div class="wrapper">
+		<div id="loader-wrapper">
+	  
+			<div id="loader"></div>
+			<div class="loader-section section-left"></div>
+			<div class="loader-section section-right"></div>
+
+		</div>
+		<header id="header" class="hidden-x">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="header-left">
+							<ul class="nav nav-pills left_menu">
+								<li>
+									<i class="fa fa-globe" aria-hidden="true"></i>
+									<select>
+										<option>English</option>
+										<option>Bangla</option>
+										<option>Hindi</option>
+										<option>Chines</option>
+										<option>Urdu</option>
+									</select>
+								</li>
+								<li class="hidden-xs">
+									<i class="fa fa-mobile " aria-hidden="true"></i>
+									+880 192 397 208
+								</li>
+								<li class="hidden-xs">
+									<i class="fa fa-paper-plane" aria-hidden="true"></i>
+									info@sitename.com
+								</li>
+
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-6">
+						<div class="header_right">
+							<div class="left-side ">
+								<div class="col-md-8">
+									<div class="register navbar-right">
+										<i class="fa fa-sign-in" aria-hidden="true"></i>
+										<a href="#">Sign In</a>
+										<span> / </span>
+										<a href="#">Register</a>
+									</div>
+								</div>
+							</div>
+							<div class="right-side">
+								<div class="col-md-4">
+									<ul class="nav nav-pills navbar-right right-side-menu">
+										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--container end-->
+		</header><!--header end-->
+		
+		<!-------main menu start-------->
+		
+		<section id="menu" class="main-menu fixed">
+			
+		<nav class="navbar navbar-default main_menu" role="navigation">
+		  <div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header page-scroll">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				  <a class="navbar-brand nabbrand page-scroll" href="#page-top" href="#"><span>in</span>stitute</a>
+				</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse" id="bs-example-navbar-collapse-1">
+				  <ul class="nav navbar-nav navbar-right main_menu_right">
+					<li><a href="#header" class="page-scroll">Home</a></li>
+						<li><a href="#courses" class="page-scroll">courses Us</a></li>
+						<li><a href="#about" class="page-scroll">About us</a></li>
+						<li><a href="#our-team" class="page-scroll">team</a></li>
+						<li><a href="#testimonial-story" class="page-scroll">testimonial</a></li>
+						<li><a href="#our-blog" class="page-scroll">Blog</a></li>
+						<li><a href="contact-us.html" class="page-scroll">Contact Us</a></li>
+					
+					<button type="button" class="buttonsearch" id="buttonsearch">
+						<i class=" fa fa-search openclosesearch"></i><i class="glyphicon glyphicon-remove openclosesearch" style="display:none"></i>
+					</button>
+				  </ul>
+				</div><!-- /.navbar-collapse -->
+				<div class="searchbardiv" id="formsearch">
+					<form role="search" method="get" id="searchform"  >
+						<div class="input-group">
+							<input type="text" id="searchbox" class="form-control" name="s" id="s">
+							<div class="input-group-btn">
+								<button class="btn btn-default"  id="searchsubmit"  type="submit">
+									<strong>Search</strong>
+								</button>
+								
+							</div>
+						</div>
+					</form>
+				</div>
+				
+		  </div><!-- /.container -->
+				
+		</nav>
+		</section><!-- main_menu-->
+		
+		<!-------slider section start-------->
+		
+		
+		<section id="slider">
+			<div class="slider_overlay"></div><!-- slider overlay-->
+				<div class="container">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active slider_iteam1">
+								<img src="images/slider_image_01.png" alt="slider_image_01" class="img-responsive" />
+								<div class="carousel-caption slider_content slider_content1">
+									<h2>Are You Ready To Study?</h2>
+									<h1>We Have The Solution</h1>
+									<p>Apprriately architect stand alone architectures clicks mortar ebusiness. 
+									Interactively redefine world class outsourcing after
+									</p>
+									<a href="#">Purchase Now</a>
+									<a href="#">View Courses</a>
+								</div>
+							</div><!-- slider item-->
+							<div class="item slider_iteam2">
+								<img src="images/slider_image_02.png" alt="slider_image_02" class="img-responsive" />
+								
+									<div class="carousel-caption slider_content slider_content2">
+										<h2>WelCome To <span>i</span> ntern</h2>
+										<h1>All Education Solution</h1>
+										<p>Apprriately architect stand alone architectures clicks mortar ebusiness. 
+										Interactively redefine world class outsourcing after
+										</p>
+										<a href="#">Purchase Now</a>
+										<a href="#">View Courses</a>
+									</div>
+								
+							</div><!-- slider item-->
+							<div class="item slider_iteam3">
+								<img src="images/slider_image_03.png" alt="slider_image_03" class="img-responsive"  />
+								<div class="carousel-caption slider_content slider_content3">
+									<h2>Online Certified Courses From The</h2>
+									<h1>"World's Top Universitys"</h1>
+									<p>Apprriately architect stand alone architectures clicks mortar ebusiness. 
+									Interactively redefine world class outsourcing after
+									</p>
+									<a href="#">Purchase Now</a>
+									<a href="#">View Courses</a>
+								</div>
+							</div><!-- slider item-->
+						</div><!-- carousel inner-->
+					</div><!-- carousel-->
+				</div><!-- container-->
+			
+		</section><!-- slider end-->
+		
+		<!-------courses section start-------->
+		
+		<section class="courses text-center " id="courses">
+			<div class="courses-top header-top wow bounceInDown">
+				<h2>Our Courses</h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12 wow swing">
+						<div class="courses-iteam">
+							<div class="courses_icon">
+								<i class="fa fa-leaf" aria-hidden="true"></i>
+							</div>
+							<div class="courses-content">
+								<h3>responsive web design</h3>
+								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat vel illum</p>
+							</div>
+						</div><!-- courses-iteam end-->
+					</div><!-- col-md-3 end-->
+					<div class="col-md-3 col-sm-6 col-xs-12 wow swing">
+						<div class="courses-iteam">
+							<div class="courses_icon">
+								<i class="fa fa-cog" aria-hidden="true"></i>
+							</div>
+							<div class="courses-content">
+								<h3>wp theme development</h3>
+								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat vel illum</p>
+							</div>
+						</div><!-- courses-iteam end-->
+					</div><!-- col-md-3 end-->
+					<div class="col-md-3 col-sm-6 col-xs-12 wow swing">
+						<div class="courses-iteam">
+							<div class="courses_icon">
+								<i class="fa fa-tablet" aria-hidden="true"></i>
+							</div>
+							<div class="courses-content">
+								<h3>creative graphics design</h3>
+								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat vel illum</p>
+							</div>
+						</div><!-- courses-iteam end-->
+					</div><!-- col-md-3 end-->
+					<div class="col-md-3 col-sm-6 col-xs-12 wow swing">
+						<div class="courses-iteam">
+							<div class="courses_icon">
+								<i class="fa fa-cog" aria-hidden="true"></i>
+							</div>
+							<div class="courses-content">
+								<h3>digital marketing</h3>
+								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat vel illum</p>
+							</div>
+						</div><!-- courses-iteam end-->
+					</div><!-- col-md-3 end-->
+					<div class="col-md-3 col-sm-6 col-xs-12 wow swing">
+						<div class="courses-iteam">
+							<div class="courses_icon">
+								<i class="fa fa-cog" aria-hidden="true"></i>
+							</div>
+							<div class="courses-content">
+								<h3>software development</h3>
+								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat vel illum</p>
+							</div>
+						</div><!-- courses-iteam end-->
+					</div><!-- col-md-3 end-->
+					<div class="col-md-3 col-sm-6 col-xs-12 wow swing">
+						<div class="courses-iteam">
+							<div class="courses_icon">
+								<i class="fa fa-cog" aria-hidden="true"></i>
+							</div>
+							<div class="courses-content">
+								<h3>ui/ux design</h3>
+								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat vel illum</p>
+							</div>
+						</div><!-- courses-iteam end-->
+					</div><!-- col-md-3 end-->
+					<div class="col-md-3 col-sm-6 col-xs-12 wow swing">
+						<div class="courses-iteam">
+							<div class="courses_icon">
+								<i class="fa fa-cog" aria-hidden="true"></i>
+							</div>
+							<div class="courses-content">
+								<h3>apps development</h3>
+								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat vel illum</p>
+							</div>
+						</div><!-- courses-iteam end-->
+					</div><!-- col-md-3 end-->
+					<div class="col-md-3 col-sm-6 col-xs-12 wow swing">
+						<div class="courses-iteam">
+							<div class="courses_icon">
+								<i class="fa fa-cog" aria-hidden="true"></i>
+							</div>
+							<div class="courses-content">
+								<h3>domain and hosting</h3>
+								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat vel illum</p>
+							</div>
+						</div><!-- courses-iteam end-->
+					</div><!-- col-md-3 end-->
+				</div><!-- container end-->
+			</div><!-- row end-->
+		</section><!-- courses end-->
+		
+		<!-----------------about us start------------------->
+		
+		<section id="about">
+			<div class="about-top header-top text-center wow bounceInDown">
+				<h2>About Us</h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="about-content">
+							<p>Freelancing place ltd. Inaugural herself in 2009 run with a strong IT team. Now we have experience of over 
+								6+ years in the ICT field. We organize Freelance Outsourcing Training in our four office 
+								venue and with eLearning system also arrange awareness program to build in expert IT 
+								generation. We develop high quality custom website designs and professional email marketing
+								service. We are specialized in web based solutions for e-commerce business.
+								Search Engine Optimization (SEO), Graphics design, Event Management consultancy email marketing.
+								Our web designers, Market Place job service, graphic designers, multimedia developers, search engine
+								experts, web developers, web developers and programmers are continuously catering to our
+								existing as well as new clients.</p>
+								<p>Freelancing place ltd. Inaugural herself in 2009 run with a strong IT team. Now we have experience of over 
+								6+ years in the ICT field. We organize Freelance Outsourcing Training in our four office 
+								venue and with eLearning system also arrange awareness program to build in expert IT 
+								generation. We develop high quality custom website designs and professional email marketing
+								service. We are specialized in web based solutions for e-commerce business.
+								Search Engine Optimization (SEO), Graphics design, Event Management consultancy email marketing.
+								Our web designers, Market Place job service, graphic designers, multimedia developers, search engine
+								experts, web developers, web developers and programmers are continuously catering to our
+								existing as well as new clients.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<!-------gallery section start-------->
+		
+		<section id="gallery">
+			<div class="gallery-top header-top text-center wow bounceInDown">
+				<h2>Our Creative Gallery</h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+			</div>
+			<div class="container-fluid">
+				<div class="row gallery-main">
+					<div class="col-md-3 col-sm-3  col-xs-6 gallery-responsive">
+						<div class="gallery-iteams">
+							<div class="gallery-iteam text-center wow zoomIn">
+								<img src="images/gallery-img1.jpg" alt="gallery-img1" class="img-responsive" />
+								<div class="gallery-overlay"></div>
+								<div class="gallery-content-overlay">
+									<div class="overlay-icon">
+										<a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+									</div>
+									<div class="overlay-content">
+										<h4><a href="#">creatively designed</a></h4>
+										<p>Gallery image</p>
+									</div>
+								</div>
+							</div>
+							<div class="gallery-iteam text-center wow zoomIn">
+								<img src="images/gallery-img3.jpg" alt="gallery-img3" class="img-responsive" />
+								<div class="gallery-overlay"></div>
+								<div class="gallery-content-overlay">
+									<div class="overlay-icon">
+										<a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+									</div>
+									<div class="overlay-content">
+										<h4><a href="#">creatively designed</a></h4>
+										<p>Gallery image</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-6 gallery-responsive">
+						<div class="gallery-iteams">
+							<div class="gallery-iteam text-center wow zoomIn">
+								<img src="images/gallery-img2.jpg" alt="gallery-img2" class="img-responsive" />
+								<div class="gallery-overlay"></div>
+								<div class="gallery-content-overlay">
+									<div class="overlay-icon">
+										<a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+									</div>
+									<div class="overlay-content">
+										<h4><a href="#">creatively designed</a></h4>
+										<p>Gallery image</p>
+									</div>
+								</div>
+							</div>
+							<div class="gallery-iteam text-center">
+								<img src="images/gallery-img4.jpg" alt="gallery-img4" class="img-responsive" />
+								<div class="gallery-overlay"></div>
+								<div class="gallery-content-overlay">
+									<div class="overlay-icon">
+										<a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+									</div>
+									<div class="overlay-content">
+										<h4><a href="#">creatively designed</a></h4>
+										<p>Gallery image</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-6 gallery-responsive">
+						<div class="gallery-iteams">
+							<div class="gallery-iteam text-center wow zoomIn">
+								<img src="images/gallery-img5.jpg" alt="gallery-img5" class="img-responsive" />
+								<div class="gallery-overlay"></div>
+								<div class="gallery-content-overlay">
+									<div class="overlay-icon">
+										<a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+									</div>
+									<div class="overlay-content">
+										<h4><a href="#">creatively designed</a></h4>
+										<p>Gallery image</p>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-6 gallery-responsive">
+						<div class="gallery-iteams">
+							<div class="gallery-iteam text-center wow zoomIn">
+								<img src="images/gallery-img6.jpg" alt="gallery-img6" / class="img-responsive">
+								<div class="gallery-overlay"></div>
+								<div class="gallery-content-overlay">
+									<div class="overlay-icon">
+										<a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+									</div>
+									<div class="overlay-content">
+										<h4><a href="#">creatively designed</a></h4>
+										<p>Gallery image</p>
+									</div>
+								</div>
+							</div>
+							<div class="gallery-iteam text-center wow zoomIn">
+								<img src="images/gallery-img7.jpg" alt="gallery-img7" class="img-responsive" />
+								<div class="gallery-overlay"></div>
+								<div class="gallery-content-overlay">
+									<div class="overlay-icon">
+										<a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+									</div>
+									<div class="overlay-content">
+										<h4><a href="#">creatively designed</a></h4>
+										<p>Gallery image</p>
+									</div>
+								</div>
+							</div>
+						</div><!-- gallery-iteams end-->
+					</div><!-- gallery-responsive end-->
+				</div><!-- gallery-main end-->
+			</div><!-- container-fluid end-->
+		</section><!-- gallery end-->
+		
+		<!-------gallery section start-------->
+		
+		<section id="our-team">
+			<div class="team-top header-top text-center wow bounceInDown">
+				<h2>Meet Our Team</h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4 col-md-4 col-xs-12">
+						<div class="thumbnail team-iteam text-center wow bounceInLeft">
+							<div class="team-image">
+								<a href="#"><img src="images/team-member-01.jpg" alt="team-member-01" class="img-responsive"/></a>
+								<div class="team-overlay"></div>
+								<div class="team-overlay-content">
+									<ul class="nav nav-pills team-nav-overlay">
+									  <li role="presentation" class="active"><a href="#"><i class="fa fa-facebook"></i></a></li>
+									  <li role="presentation" class="active"><a href="#"><i class="fa fa-twitter"></i></a></li>
+									  <li role="presentation" class="active"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+									  <li role="presentation" class="active last-child"><a href="#"><i class="fa fa-instagram"></i></a></li>
+									  
+									</ul>
+								</div>
+							</div>
+							<div class="caption team-content">
+								<h4><a href="#">Matthew Dix</a></h4>
+								<p>Graphic Design</p>
+							</div>
+						</div>
+					</div><!-- col-md-4 end-->
+					<div class="col-sm-4 col-md-4 col-xs-12">
+						<div class="thumbnail team-iteam text-center wow zoomIn">
+							<div class="team-image">
+								<a href="#"><img src="images/team-member-03.jpg" alt="team-member-03" class="img-responsive"/></a>
+								<div class="team-overlay"></div>
+								<div class="team-overlay-content">
+									<ul class="nav nav-pills team-nav-overlay">
+									  <li role="presentation" class="active"><a href="#"><i class="fa fa-facebook"></i></a></li>
+									  <li role="presentation" class="active"><a href="#"><i class="fa fa-twitter"></i></a></li>
+									  <li role="presentation" class="active"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+									  <li role="presentation" class="active last-child"><a href="#"><i class="fa fa-instagram"></i></a></li>
+									  
+									</ul>
+								</div>
+							</div>
+							<div class="caption team-content">
+								<h4><a href="#">Christopher Campbell</a></h4>
+								<p>Branding/UX design</p>
+							</div>
+						</div>
+					</div><!-- col-md-4 end-->
+					<div class="col-sm-4 col-md-4 col-xs-12">
+						<div class="thumbnail team-iteam text-center wow bounceInRight">
+							<div class="team-image">
+								<a href="#"><img src="images/team-member-02.jpg" alt="team-member-02" class="img-responsive"/></a>
+								<div class="team-overlay"></div>
+								<div class="team-overlay-content">
+									<ul class="nav nav-pills team-nav-overlay">
+									  <li role="presentation" class="active"><a href="#"><i class="fa fa-facebook"></i></a></li>
+									  <li role="presentation" class="active"><a href="#"><i class="fa fa-twitter"></i></a></li>
+									  <li role="presentation" class="active"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+									  <li role="presentation" class="active last-child"><a href="#"><i class="fa fa-instagram"></i></a></li>
+									  
+									</ul>
+								</div>
+							</div>
+							<div class="caption team-content">
+								<h4><a href="#">Michael Fertig </a></h4>
+								<p>Developer</p>
+							</div>
+						</div><!-- team-iteam end-->
+					</div><!-- col-md-4 end-->
+				</div><!-- row end-->
+			</div><!-- containerend -->
+		</section><!-- our team end-->
+		
+		<!-------gallery section start-------->
+		
+		<section id="our-client">
+			<div class="Client-top header-top text-center wow bounceInDown">
+				<h2> Our Client Logo</h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="slick client-slider">
+						<div class="col-md-3 col-sm-6 ">
+							<div class="client-iteam wow zoomIn">
+								<img src="images/client-image-01.jpg" alt="client-image-01" class="img-responsive" />
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="client-iteam wow zoomIn">
+								<img src="images/client-image-02.jpg" alt="client-image-02" class="img-responsive" />
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="client-iteam wow zoomIn">
+								<img src="images/client-image-03.jpg" alt="client-image-03" class="img-responsive" />
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="client-iteam wow zoomIn">
+								<img src="images/client-image-04.jpg" alt="client-image-04" class="img-responsive" />
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 wow zoomIn">
+							<div class="client-iteam">
+								<img src="images/client-image-01.jpg" alt="client-image-01" class="img-responsive" />
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 ">
+							<div class="client-iteam wow zoomIn">
+								<img src="images/client-image-02.jpg" alt="client-image-02" class="img-responsive" />
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="client-iteam wow zoomIn">
+								<img src="images/client-image-03.jpg" alt="client-image-03" class="img-responsive"/>
+							</div>
+						</div>
+					</div><!-- slick slider end-->
+				</div><!-- row end-->
+			</div><!-- container end-->
+		</section><!-- our-client end-->
+		<!------------testimonail story  start ------------->
+		<section id="testimonial-story">
+			<div class="Client-top header-top text-center wow bounceInDown">
+				<h2> Our feedbacks</h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<div class="story-iteams">
+							<div>
+								<div class="story-content">
+									<a href="#">Jonathan Doe</a>
+									<p>Web Developer of <a href="#">CodexCoder.Com</a></p>
+									<p><em>Holisticly engage emerging value without fully researched technologies. Credibly is communicate content through performance based leadership Proactively an benchmark frictionless users with clientcentric.</em></p>
+									<div class="story_arrow"></div>
+								</div>
+								<!--<div class="angle">
+									<img src="images/feedback.png" alt="" />
+								</div>-->
+								<div class="story-img">
+									<img src="images/testimonial-1.jpg" alt="Story Image" class="img-responsive"/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="story-iteams">
+							<div>
+								<div class="story-content">
+									<a href="#">Jonathan Doe</a>
+									<p>Web Developer of <a href="#">CodexCoder.Com</a></p>
+									<p><em>Holisticly engage emerging value without fully researched technologies. Credibly is communicate content through performance based leadership Proactively an benchmark frictionless users with clientcentric.</em></p>
+									<div class="story_arrow"></div>
+								</div>
+								<!--<div class="angle">
+									<img src="images/feedback.png" alt="" />
+								</div>-->
+								<div class="story-img">
+									<img src="images/testimonial-2.jpg" alt="Story Image" class="img-responsive"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!------------testimonial story  end ------------->
+		
+		
+		<!-------our blog section start-------->
+		<section id="our-blog">
+			<div class="blog-top header-top text-center wow bounceInDown">
+				<h2> Our Latest Blog </h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-md-4 col-xs-12">
+						<div class="thumbnail blog-iteam wow bounceInLeft">
+							<div class="blog-iteam-img">
+								<a href="#"><img src="images/blog-img-01.jpg" alt="blog-img-01" class="img-responsive" /></a>
+								<div class="blog-figcaption">
+									<a href="#"><i class="fa fa-picture-o"></i></a>
+								</div>
+							</div>
+							<div class="caption blog-iteam-content">
+								<div class="blog-content-inner">
+									<h3><a href="#">Matically sinrgize and rliable</a> </h3>
+									<div class="blog-meta-menu">
+										<ul class="nav nav-pills meta-menu-blog">
+											<li><a href="#"><i class="fa fa-user"></i>Robot</a></li>
+											<li><a href="#"><i class="fa fa-comments"></i>12 Comments</a></li>
+											<li><i class="fa fa-eye"></i>120</li>
+										</ul>
+									</div>
+									<p>Holisticly impact grar collaboron ashearing for magnetic scearios tart listic aileaership after staart process improvements. </p>
+									<p><a href="blog.html" class="btn btn-default" role="button">Read More</a></p>
+								</div>
+							</div>
+						</div><!-- blog-iteam end -->
+					</div><!-- col-md-4 end -->
+					<div class="col-sm-6 col-md-4 col-xs-12">
+						<div class="thumbnail blog-iteam wow zoomIn">
+							<div class="blog-iteam-img">
+								<a href="#"><img src="images/blog-img-02.jpg" alt="blog-img-02" class="img-responsive" /></a>
+								<div class="blog-figcaption">
+									<a href="#"><i class="fa fa-picture-o"></i></a>
+								</div>
+							</div>
+							<div class="caption blog-iteam-content">
+								<div class="blog-content-inner">
+									<h3><a href="#">Matically sinrgize and rliable</a> </h3>
+									<div class="blog-meta-menu">
+										<ul class="nav nav-pills meta-menu-blog">
+											<li><a href="#"><i class="fa fa-user"></i>Robot</a></li>
+											<li><a href="#"><i class="fa fa-comments"></i>12 Comments</a></li>
+											<li><i class="fa fa-eye"></i>120</li>
+										</ul>
+									</div>
+									<p>Holisticly impact grar collaboron ashearing for magnetic scearios tart listic aileaership after staart process improvements. </p>
+									<p><a href="blog.html" class="btn btn-default" role="button">Read More</a></p>
+								</div>
+							</div>
+						</div><!-- blog-iteam end -->
+					</div><!-- col-md-4 end -->
+					<div class="col-sm-6 col-md-4 col-xs-12">
+						<div class="thumbnail blog-iteam wow bounceInRight">
+							<div class="blog-iteam-img">
+								<a href="#"><img src="images/blog-img-03.jpg" alt="blog-img-03" class="img-responsive" /></a>
+								<div class="blog-figcaption">
+									<a href="#"><i class="fa fa-picture-o"></i></a>
+								</div>
+							</div>
+							<div class="caption blog-iteam-content">
+								<div class="blog-content-inner">
+									<h3><a href="#">Matically sinrgize and rliable</a> </h3>
+									<div class="blog-meta-menu">
+										<ul class="nav nav-pills meta-menu-blog">
+											<li><a href="#"><i class="fa fa-user"></i>Robot</a></li>
+											<li><a href="#"><i class="fa fa-comments"></i>12 Comments</a></li>
+											<li><i class="fa fa-eye"></i>120</li>
+										</ul>
+									</div>
+									<p>Holisticly impact grar collaboron ashearing for magnetic scearios tart listic aileaership after staart process improvements. </p>
+									<p><a href="blog.html" class="btn btn-default" role="button">Read More</a></p>
+								</div>
+							</div>
+						</div><!-- blog-iteam end -->
+					</div><!-- col-md-4 end -->
+				</div><!-- row end -->
+			</div><!-- container end -->
+		</section><!-- our blog end -->
+		
+		<!-------footer widget section start-------->
+		<section id="footer-widget">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="footer-widget-iteam">
+							<h3>Internship</h3>
+							<p>	Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod tempor incidid labore et dolore 
+								magna aleiqua. Ut enim ad minim nostrud exercitation ullamco laeboris eiusmod tempor incidid 
+								labore et dolore magna aleiqua nisi ut aliquip ex ea commodo consequat.
+							</p>
+							<div class="widget-intership">
+								<p>Follow Us:</p>
+								<ul class="nav nav-pills widget-social-icon">
+								  <li role="presentation" class=""><a href="#"><i class="fa fa-facebook"></i></a></li>
+								  <li role="presentation" class=""><a href="#"><i class="fa fa-twitter"></i></a></li>
+								  <li role="presentation" class=""><a href="#"><i class="fa fa-youtube"></i></a></li>
+								  <li role="presentation" class=""><a href="#"><i class="fa fa-pinterest"></i></a></li>
+								  <li role="presentation" class=""><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								  <li role="presentation" class=""><a href="#"><i class="fa fa-tumblr"></i></a></li>
+								  
+								</ul>
+							</div>
+							<div class="input-group widget-input">
+							  <input type="text" class="form-control widget-input-control" placeholder="Your Email...">
+							  <span class="input-group-btn widget-input-buton">
+								<button class="btn btn-default widget-input-butonn" type="button">Subscribe</button>
+							  </span>
+							</div><!-- /input-group -->
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="footer-widget-iteam">
+							<h3>Recent Blog Post</h3>
+							<div class="footer-blog-iteam">
+								<div class="footer-img">
+									<a href="#">
+										<img src="images/widget-img-01.jpg" alt="blog image"/>
+									</a>
+								</div>
+								<div class="footer-content">
+									<p><a href="#">Rorem ipsum dolor sit an amet, consectetur adipiscing</a></p>
+									<p>Jan 9, 2016</p>
+								</div>
+							</div>
+							<div class="footer-blog-iteam">
+								<div class="footer-img">
+									<a href="#">
+										<img src="images/widget-img-01.jpg" alt="blog image"/>
+									</a>
+								</div>
+								<div class="footer-content">
+									<p><a href="#">Rorem ipsum dolor sit an amet, consectetur adipiscing</a></p>
+									<p>Jan 9, 2016</p>
+								</div>
+							</div>
+							<div class="footer-blog-iteam">
+								<div class="footer-img">
+									<a href="#">
+										<img src="images/widget-img-01.jpg" alt="blog image"/>
+									</a>
+								</div>
+								<div class="footer-content">
+									<p><a href="#">Rorem ipsum dolor sit an amet, consectetur adipiscing</a></p>
+									<p>Jan 9, 2016</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="footer-widget-iteam">
+							<h3>Instagram</h3>
+							<div class="widget-images">
+							  <div  class="widget-image"><a href="#"><img src="images/widget-img-01.jpg" alt="widget-img-01" class="img-responsive" /></a></div>
+							  <div  class="widget-image"><a href="#"><img src="images/widget-img-02.jpg" alt="widget-img-02" class="img-responsive" /></a></div>
+							  <div  class="widget-image"><a href="#"><img src="images/widget-img-03.jpg" alt="widget-img-03" class="img-responsive" /></a></div>
+							  <div class="widget-image"><a href="#"><img src="images/widget-img-04.jpg" alt="widget-img-04" class="img-responsive" /></a></div>
+							  <div  class="widget-image"><a href="#"><img src="images/widget-img-05.jpg" alt="widget-img-05" class="img-responsive" /></a></div>
+							  <div  class="widget-image"><a href="#"><img src="images/widget-img-06.jpg" alt="widget-img-06" class="img-responsive" /></a></div>
+							  <div  class="widget-image"><a href="#"><img src="images/widget-img-07.jpg" alt="widget-img-07" class="img-responsive" /></a></div>
+							  <div  class="widget-image"><a href="#"><img src="images/widget-img-08.jpg" alt="widget-img-08" class="img-responsive" /></a></div>
+							  <div  class="widget-image"><a href="#"><img src="images/widget-img-09.jpg" alt="widget-img-09" class="img-responsive" /></a></div>
+							</div>
+						</div><!-- ofooter-widget-iteam end-->
+					</div><!-- col-md-4 end-->
+				</div><!-- row  end -->
+			</div><!-- container end -->
+		</section><!-- footer-widget -->
+		<section id="footer">
+			<p class="text-center">© 2016 Internship PSD Template By <span>subena.com</span></p>
+		</section>
+		<div class='back-to-top' id='back-to-top' title='Back to top'><i class='fa fa-chevron-up' /></div>
+	</div>	
+    <!-- main jquery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+    <!-- bootstrap jquery -->
+    <script src="js/bootstrap.min.js"></script>
+	<!-- slick slider -->
+    <script src="js/slick.min.js"></script>
+	<script src="js/sticky.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<script type="text/javascript">
+		$('.slick').slick({
+		  slidesToShow: 4,
+		  slidesToScroll: 1,
+		  autoplay: true,
+		  autoplaySpeed: 1000,
+		  arrows: false,
+		  responsive: [
+			{
+			  breakpoint: 991,
+			  settings: {
+				arrows: false,
+				centerMode: true,
+				centerPadding: '40px',
+				slidesToShow: 3
+			  }
+			},
+			{
+			  breakpoint: 480,
+			  settings: {
+				arrows: false,
+				centerMode: true,
+				centerPadding: '40px',
+				slidesToShow: 1
+			  }
+			}
+		  ]
+		});
+	</script>
+	<script>
+	   $(document).ready(function(){
+		   $(window).bind('scroll', function() {
+		   var navHeight = $( window ).height() - 70;
+				 if ($(window).scrollTop() > navHeight) {
+					 $('nav').addClass('fixed');
+				 }
+				 else {
+					 $('nav').removeClass('fixed');
+				 }
+			});
+		});
+	</script>
+	<script>
+		  $(document).ready(function(){
+            var submitIcon = $('.searchbox-icon');
+            var inputBox = $('.searchbox-input');
+            var searchBox = $('.searchbox');
+            var isOpen = false;
+            submitIcon.click(function(){
+                if(isOpen == false){
+                    searchBox.addClass('searchbox-open');
+                    inputBox.focus();
+                    isOpen = true;
+                } else {
+                    searchBox.removeClass('searchbox-open');
+                    inputBox.focusout();
+                    isOpen = false;
+                }
+            });  
+             submitIcon.mouseup(function(){
+                    return false;
+                });
+            searchBox.mouseup(function(){
+                    return false;
+                });
+            $(document).mouseup(function(){
+                    if(isOpen == true){
+                        $('.searchbox-icon').css('display','block');
+                        submitIcon.click();
+                    }
+                });
+        });
+            function buttonUp(){
+                var inputVal = $('.searchbox-input').val();
+                inputVal = $.trim(inputVal).length;
+                if( inputVal !== 0){
+                    $('.searchbox-icon').css('display','none');
+                } else {
+                    $('.searchbox-input').val('');
+                    $('.searchbox-icon').css('display','block');
+                }
+            }
+	</script>
+  </body>
+</html>
